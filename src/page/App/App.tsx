@@ -16,14 +16,17 @@
 //
 
 import React from 'react';
+import { Layout } from 'antd';
+
+import './App.css';
 
 export function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+    <Layout>
+      <Layout.Header>
+        Calliope - An AV media contest management and submission website.
+      </Layout.Header>
+      <Layout.Content>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -32,8 +35,8 @@ export function App () {
         >
           Learn React
         </a>
-      </header>
-    </div>
+      </Layout.Content>
+    </Layout>
   );
 }
 
