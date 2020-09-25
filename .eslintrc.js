@@ -1,6 +1,7 @@
 module.exports = {
     "env": {
-        "browser": true
+        "jest": true,
+        "jest/globals": true
     },
     "extends": [
         "eslint:recommended",
@@ -16,6 +17,7 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
+        "jest",
         "react",
         "@typescript-eslint"
     ],
