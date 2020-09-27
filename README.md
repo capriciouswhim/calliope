@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This represents several minor additions to the base project, including:
+1. Using the Typescript CRA template via. Yarn.
+2. Organize "App" object in "page" folder.
+3. set up "baseUrl" typescript option.
+4. Enabling ES Lint, and configuring for the "standard" code style.
+5. Enabling requiring license headers.  Including Affero GPL 3 as an example.
+6. Yarn changes for Jest and Linting.
+    Tested under MacOS.  On Windows:
+    "scripts": {
+        ...
+        "lint": "echo ESLint... && node_modules\\\\.bin\\\\eslint src --ext \".ts,.tsx\"",
+        "jest": "SET CI=true && react-scripts test",
+        ...
+    },
+7. Linted, Testing and Building with 0 Warnings, 0 Errors.
+
 ## Available Scripts
 
 In the project directory, you can run:

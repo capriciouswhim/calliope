@@ -1,5 +1,5 @@
-// Calliope, a media contest management and submission website
-// Copyright © 2010 Daric "Jingoro" Jackson
+// [App Name, Description]
+// Copyright © [Year, Author]
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -13,7 +13,6 @@
 //
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
-//
 
 import React from 'react';
 import { Layout } from 'antd';
