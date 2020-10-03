@@ -7,15 +7,15 @@
     "@types/react-dom": "^16.9.0",
     "antd": "^4.6.5",
     "moment": "^2.29.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^0.0.0-experimental-94c0244ba",
+    "react-dom": "^0.0.0-experimental-94c0244ba",
     "typescript": "^3.8.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint": "echo ESLint... && node_modules\\.bin\\eslint src --ext \".ts,.tsx\"",
-    "jest": "set CI=true && react-scripts test",
+    "lint": "echo ESLint... && node_modules/.bin/eslint src --ext \".ts,.tsx\"",
+    "jest": "CI=true react-scripts test",
     "test": "yarn jest && yarn lint",
     "eject": "react-scripts eject"
   },
